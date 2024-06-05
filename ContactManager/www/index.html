@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="lib/jquery.mobile-1.4.5.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="cordova.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Mes Contacts</h1>
+        </div>
+        <div data-role="main" class="ui-content">
+            <button id="ajouterContact" class="ui-btn ui-icon-plus ui-btn-icon-right">Ajouter un contact</button>
+        </div>
+        <ul id="contactList" data-role="listview" data-inset="true" data-filter="true" data-filter-placeholder="Rechercher un contact...">
+            <li>
+                <a href="#">
+                    <img src="img/avatar.png" alt="photo de profil du contact">
+                    <h1>Abdoulaye Ndiaye</h1>
+                    <p>77 682 89 29</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/avatar.png" alt="photo de profil du contact">
+                    <h1>Pape Diop</h1>
+                    <p>70 588 67 89</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/avatar.png" alt="photo de profil du contact">
+                    <h1>Balla fall</h1>
+                    <p>77 690 28 79</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="img/avatar.png" alt="photo de profil du contact">
+                    <h1>Abdoulaye <Base></Base></h1>
+                    <p>76 569 36 02</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
